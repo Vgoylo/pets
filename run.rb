@@ -1,6 +1,7 @@
 require_relative 'src/animal'
 require_relative 'src/cat'
 require_relative 'src/dog'
+require 'colorize'
 
 a = Animal.new('yellow')
 cat = Cat.new('white')
@@ -8,8 +9,8 @@ dog = Dog.new('grey')
 p a.say
 p cat.say
 
-puts '*' * 100 
+puts '*'.blue * 100 
 p cat.meow
-puts '#' * 100
+puts '#'.red * 100
 p dog.woof
 
