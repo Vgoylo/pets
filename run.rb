@@ -1,6 +1,6 @@
-require_relative 'animal'
-require_relative 'cat'
-require_relative 'dog'
+require_relative 'src/animal'
+require_relative 'src/cat'
+require_relative 'src/dog'
 
 a = Animal.new('yellow')
 cat = Cat.new('white')
