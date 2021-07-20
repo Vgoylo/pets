@@ -1,3 +1,5 @@
+require 'colorize'
+
 class Animal
   attr_reader :color
 
@@ -6,7 +8,7 @@ class Animal
   end
 
   def say
-    "my color is #{color}"
+    "my color is #{color}".send(color)
   end
 end
 
